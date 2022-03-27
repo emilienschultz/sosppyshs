@@ -1,0 +1,261 @@
+"Titre","Listes des variables avec les questions et modalités associées",,,
+"Objet ","Enquête SOSP-FR _ Enquête sur les usages relatifs aux outils numériques et aux données de la recherche dans les communautés scientifiques françaises",,,
+"Auteurs ","Le Béchec M. Bouchard A. Denecker C. Charrier P. Gallezot G. Rennes S.",,,
+"Résumé","L’enquête State of Open Science Practices in France (SOSP-FR) a été conduite entre juin 2020 et septembre 2020. Elle a pour but d’interroger les pratiques des outils numériques et autour des données de la recherche dans les communautés scientifiques françaises. Le questionnaire se compose de 38 questions réparties en 9 thématiques. Les questions portent sur des pratiques déjà établies et des pratiques ou usages émergents comme l’open peer review ou les articles de données dits data paper. Le nombre de répondants est de 1 089, permettant d’interroger une répartition disciplinaire, genrée et statutaire assez représentative de l’état de l’emploi dans l’enseignement supérieur et de recherche en France.",,,
+"Discipline","Sciences de l’information et de la communication",,,
+"Mots-clés","Open science ; open data ; digital practices ; open access",,,
+"Nombre de répondants","1089",,,
+"Date de passation du questionnaire_début","17/01/20",,,
+"Date de passation du questionnaire_fin","30/09/20",,,
+"Langues","FR_EN",,,
+"Zone géographique","France",,,
+"Population enquêtée","Communauté scientifique en France dans les secteurs public et privé",,,
+"Modes de collecte","Questionnaire auto-administré",,,
+"Diffusion du questionnaire","sites web et Forum Comité pour La Science Ouverte ; ANRT ; Comptes réseaux sociaux CoSo, URFIST et membres associés comme Twitter et LinkedIn",,,
+"Caractéristique de la collecte","pic de contributions quand relance par les comptes institutionnels",,,
+"DOI_questionnaire _FR","https://zenodo.org/record/3935958 ",,,
+"DOI_questionnaire _EN","https://zenodo.org/record/3935971 ",,,
+"Rapport","Le Béchec M., Bouchard A., Denecker C., Charrier P., Gallezot G., Rennes S., Enquête sur les usages relatifs aux outils numériques et aux données de la recherche dans les communautés scientifiques françaises, 2022",,,
+"DOI_Rapport","https://doi.org/10.52949/5",,,
+"Description des données","Données de reproduction pour une analyse statistique des pratiques numériques des communautés de recherche françaises. ",,,
+"Instrument de collecte","logiciel Sphinx mis à disposition par la TGIR Huma-Num",,,
+"Type de données","Données d’enquête",,,
+"Format","texte",,,
+"Variables","130",,,
+"Données recodées","Des variables potentiellement identifiantes sont recodées comme la discipline en 9 niveaux. Se référer à la colonne E29. ",,,
+"Données agrégées","La question ouverte numérique portant sur l’année de naissance du répondant n’est pas disponible. En revanche, la variable recalculée et recodée à partir des réponses à cette variable est présente (annee_naissance-recod10niv, colonne EA). Nous avons procédé de la même manière pour la variable « discipline » qui n’est disponible que sous sa forme agrégée en 9 catégories (discipline_9niv, colonne DZ), certaines spécialités pouvant être extrêmement précises au point d’être associé qu’à quelques personnes. ",,,
+"Données anonymisées_pseudonymisées","Nous avons également partiellement anonymisé les deux dernières questions proposées dans ce questionnaire, des questions ouvertes où les répondants ont laissé des éléments qui, pris individuellement ou combinés avec d’autres variables, pouvaient conduire à une fragilisation de l’anonymat. Par exemple, certains répondants ont argumenté à partir de leur position professionnelle, citant leur structure de rattachement, leur institution, une opération de recherche, de publication ou de diffusion de données de recherche.",,,
+"Recommandations pour la réutilisation ","Ces données doivent donc être traitées par vous réutilisateurs ou réutilisatrices selon des positions éthiques dont un engagement au traitement anonyme des résultats.",,,
+,,,,
+"Tableau de description des variables",,,,
+,,,,
+"Nom variable","Question","Modalités de réponse proposées","Colonne","Observations _Commentaires"
+"ID",,,"A","Identifiant de l’observé"
+"contexte_travail ","Habituellement, pour une opération de recherche, avec combien de personnes travaillez-vous (chercheurs, techniciens, ingénieurs compris) ?","je travaille seul   nous sommes entre 2 et 5 personnes   nous sommes entre 6 et 10 personnes   nous sommes entre 11 et 20 personnes   nous sommes entre 21 et 50 personnes   nous sommes plus de 50 personnes","B",
+"fonction_recherche","Quelle est votre fonction dans la recherche ?","doctorant / doctorante (y compris CIFRE)   maître / maîtresse de conférences et assimilés  professeur / professeure des universités et assimilés directeur / directrice de recherche chargé / chargée de recherche ingénieur / ingénieure de recherche   ingénieur / ingénieure d'études chercheur / chercheure dans le secteur privé responsable de service R&D dans le secteur privé","C",
+"statut_professionnel","Quel est votre statut professionnel ?","Fonctionnaire ou assimilé en CDD   en CDI   post-doc  contrat doctoral   travailleur indépendant  doctorant non financé  professeur / chercheur émérite retraité  chômage  vacataire  chercheur associé non rémunéré autre ","D",
+"statut_professionnel_autre","Si, autre pouvez-vous préciser ?","Question ouverte","E",
+"annee_premiere_publi","En quelle année avez-vous publié ou co-publié pour la première fois vos résultats de recherche (ouvrage, article, poster…) ?","Question ouverte numérique","F",
+"Systeme_exploitation","Quel(s) système(s) d’exploitation informatiques (OS) utilisez-vous ?","Windows ; MacOS ; Linux ; autres Unix ; autres OS (Android...)","G","Plusieurs réponses possibles mais 5 max"
+"Usage_telephone_mobile","Utilisez-vous votre téléphone mobile à des fins de recherche (hors appel téléphoniques) ?","Jamais rarement parfois souvent toujours
+","H",
+"Outils_gestion_travail_av_confinement_visioconférence","AVANT LE CONFINEMENT, quels types d’outils de gestion de travail individuel et collectif utilisiez-vous ?","Jamais rarement parfois souvent toujours
+","I",
+"Outils_gestion_travail_av_confinement_planification_RDV","AVANT LE CONFINEMENT, quels types d’outils de gestion de travail individuel et collectif utilisiez-vous ? ","Jamais rarement parfois souvent toujours
+","J",
+"Outils_gestion_travail_av_confinement_gestion_temps","AVANT LE CONFINEMENT, quels types d’outils de gestion de travail individuel et collectif utilisiez-vous ?","Jamais rarement parfois souvent toujours
+","K",
+"Outils_gestion_travail_av_confinement_métier_interne_entreprise","AVANT LE CONFINEMENT, quels types d’outils de gestion de travail individuel et collectif utilisiez-vous ? ","Jamais rarement parfois souvent toujours
+","L",
+"Outils_gestion_travail_av_confinement_planification_suivi_taches_gestion_projet","AVANT LE CONFINEMENT, quels types d’outils de gestion de travail individuel et collectif utilisiez-vous ? ","Jamais rarement parfois souvent toujours
+","M",
+"Outils_gestion_travail_av_confinement_services_ligne","AVANT LE CONFINEMENT, quels types d’outils de gestion de travail individuel et collectif utilisiez-vous ? ","Jamais rarement parfois souvent toujours
+","N",
+"Outils_gestion_travail_av_confinement_redaction_collectif","AVANT LE CONFINEMENT, quels types d’outils de gestion de travail individuel et collectif utilisiez-vous ? ","Jamais rarement parfois souvent toujours
+","O",
+"Outils_gestion_travail_av_confinement_gestion_references","AVANT LE CONFINEMENT, quels types d’outils de gestion de travail individuel et collectif utilisiez-vous ? ","Jamais rarement parfois souvent toujours
+","P",
+"Outils_gestion_travail_suite_confinement_visioconference","SUITE AU CONFINEMENT, quels types d’outils de gestion de travail individuel et collectif utilisez-vous ? ","Jamais rarement parfois souvent toujours
+","Q",
+"Outils_gestion_travail_suite_confinement_planification_RDV","SUITE AU CONFINEMENT, quels types d’outils de gestion de travail individuel et collectif utilisez-vous ?","Jamais rarement parfois souvent toujours
+","R",
+"Outils_gestion_travail_suite_confinement_gestion_temps","SUITE AU CONFINEMENT, quels types d’outils de gestion de travail individuel et collectif utilisez-vous ? ","Jamais rarement parfois souvent toujours
+","S",
+"Outils_gestion_travail_suite_confinement_metier_interne_entreprise","SUITE AU CONFINEMENT, quels types d’outils de gestion de travail individuel et collectif utilisez-vous ?","Jamais rarement parfois souvent toujours
+","T",
+"Outils_gestion_travail_suite_confinement_planification_suivi_taches_gestion_projet","SUITE AU CONFINEMENT, quels types d’outils de gestion de travail individuel et collectif utilisez-vous ?","Jamais rarement parfois souvent toujours
+","U",
+"Outils_gestion_travail_suite_confinement_services_ligne","SUITE AU CONFINEMENT, quels types d’outils de gestion de travail individuel et collectif utilisez-vous ?","Jamais rarement parfois souvent toujours
+","V",
+"Outils_gestion_travail_suite_confinement_redaction_collectifs","SUITE AU CONFINEMENT, quels types d’outils de gestion de travail individuel et collectif utilisez-vous ? ","Jamais rarement parfois souvent toujours
+","W",
+"Outils_gestion_travail_suite_confinement_gestion_references","SUITE AU CONFINEMENT, quels types d’outils de gestion de travail individuel et collectif utilisez-vous ? ","Jamais rarement parfois souvent toujours
+","X",
+"Acces_informations_recherches_instititionnel","Comment accédez-vous aux informations utiles à vos recherches ? ","Jamais rarement parfois souvent toujours
+","Y",
+"Acces_informations_recherches_moteur_recherche_generalistes","Comment accédez-vous aux informations utiles à vos recherches ? ","Jamais rarement parfois souvent toujours
+","Z",
+"Acces_informations_recherches_moteur_recherche_scientifiques","Comment accédez-vous aux informations utiles à vos recherches ? ","Jamais rarement parfois souvent toujours
+","AA",
+"Acces_informations_recherches_pay_per_view","Comment accédez-vous aux informations utiles à vos recherches ?","Jamais rarement parfois souvent toujours
+","AB",
+"Acces_informations_recherches_entrepot_donnees","Comment accédez-vous aux informations utiles à vos recherches ? ","Jamais rarement parfois souvent toujours
+","AC",
+"Acces_informations_recherches_reseaux_numeriques_academiques","Comment accédez-vous aux informations utiles à vos recherches ? ","Jamais rarement parfois souvent toujours
+","AD",
+"Acces_informations_recherches_archives_ouvertes","Comment accédez-vous aux informations utiles à vos recherches ?","Jamais rarement parfois souvent toujours
+","AE",
+"Acces_informations_recherches_bibliotheques_numeriques","Comment accédez-vous aux informations utiles à vos recherches ?","Jamais rarement parfois souvent toujours
+","AF",
+"Acces_informations_recherches_demandes_web","Comment accédez-vous aux informations utiles à vos recherches ? ","Jamais rarement parfois souvent toujours
+","AG",
+"Acces_informations_recherches_extensions_navigateur","Comment accédez-vous aux informations utiles à vos recherches ? ","Jamais rarement parfois souvent toujours
+","AH",
+"Acces_informations_recherches_bibliotheques_clandestines","Comment accédez-vous aux informations utiles à vos recherches ? ","Jamais rarement parfois souvent toujours
+","AI",
+"Acces_informations_recherches_demande_auteurs","Comment accédez-vous aux informations utiles à vos recherches ? ","Jamais rarement parfois souvent toujours
+","AJ",
+"decouverte_outils_num_travail","Comment avez-vous découvert vos outils numériques de travail actuels ?","Jamais rarement parfois souvent toujours
+","AK",
+"Type_donnees_nombres_valeurs_numeriques","Sur quel type de données travaillez-vous ?","Jamais rarement parfois souvent toujours
+","AL",
+"Type_donnees_textes","Sur quel type de données travaillez-vous ?","Jamais rarement parfois souvent toujours
+","AM",
+"Type_donnees_images","Sur quel type de données travaillez-vous ?","Jamais rarement parfois souvent toujours
+","AN",
+"Type_donnees_videos","Sur quel type de données travaillez-vous ?","Jamais rarement parfois souvent toujours
+","AO",
+"Type_donnees_3D","Sur quel type de données travaillez-vous ?","Jamais rarement parfois souvent toujours
+","AP",
+"Type_donnees_sons","Sur quel type de données travaillez-vous ?","Jamais rarement parfois souvent toujours
+","AQ",
+"volumetrie_donnees","Quelle est la quantité estimée de ces données pour une de vos recherches ?","Question ouverte","AR",
+"Reutilisation_donnees","Réutilisez-vous des données déjà produites ou publiées ?","Jamais rarement parfois souvent toujours
+","AS",
+"archivage_long_terme","Archivez-vous (conservation à long terme) ces données ?","Oui Non","AT",
+"Tiers_archivage","Si oui, à quels tiers les confiez-vous ?","Question ouverte","AU",
+"Tiers_archivage_recod","Si oui, à quels tiers les confiez-vous ?","Question ouverte","AV","Recodage des réponses de la variable précédente"
+"crowdsourcing","Avez-vous recours au crowdsourcing ?","Oui Non","AW",
+"Outils_sauvegarde_carnets_papier","Pour enregistrer et sauvegarder vos données, quelques outils utilisez-vous ?","Jamais rarement parfois souvent toujours
+","AX",
+"Outils_sauvegarde_carnets_numeriques","Pour enregistrer et sauvegarder vos données, quelques outils utilisez-vous ?","Jamais rarement parfois souvent toujours
+","AY",
+"Outils_sauvegarde_base_donnees_labo","Pour enregistrer et sauvegarder vos données, quelques outils utilisez-vous ?","Jamais rarement parfois souvent toujours
+","AZ",
+"Outils_sauvegarde_supports_amovibles","Pour enregistrer et sauvegarder vos données, quelques outils utilisez-vous ?","Jamais rarement parfois souvent toujours
+","BA",
+"Outils_sauvegarde_reseau_informatique_local","Pour enregistrer et sauvegarder vos données, quelques outils utilisez-vous ?","Jamais rarement parfois souvent toujours
+","BB",
+"Outils_sauvegarde_disque_dur","Pour enregistrer et sauvegarder vos données, quelques outils utilisez-vous ?","Jamais rarement parfois souvent toujours
+","BC",
+"Outils_sauvegarde_cloud_institutionnel","Pour enregistrer et sauvegarder vos données, quelques outils utilisez-vous ?","Jamais rarement parfois souvent toujours
+","BD",
+"Outils_sauvegarde_cloud_non-institutionnel","Pour enregistrer et sauvegarder vos données, quelques outils utilisez-vous ?","Jamais rarement parfois souvent toujours
+","BE",
+"logiciel_production_donnees","Quels logiciels utilisez-vous pour produire des données","Question ouverte","BF",
+"types_logiciels_production_donnees","Ces logiciels sont-ils ?","des logiciels payants ; des logiciels partiellement ou complètement gratuits mais propriétaires ; des logiciels libres et gratuits
+des logiciels gratuits avec des fonctionnalités premium ; des logiciels version d'essai ou démo
+des logiciels créés à cette fin (seul ou avec des collègues) ; des logiciels internes à mon organisation ; des logiciels issus d'un projet de recherche ; des logiciels payants ""crackés""","BG","5 réponses maximum possibles"
+"Usage_outils_nettoyage","Utilisez-vous des outils pour nettoyer vos données ?","Jamais rarement parfois souvent toujours
+","BH",
+"outils_nettoyage","Pouvez-vous précisez lesquels ?","Question ouverte","BI",
+"Usage_outils_analyse","Utilisez-vous des outils pour analyser vos données","Jamais rarement parfois souvent toujours
+","BJ",
+"Outils_analyses","Pouvez-vous précisez lesquels ?","Question ouverte","BK",
+"Usage_outils_visualisation","Utilisez-vous un ou des outils pour visualiser vos données ?","Jamais rarement parfois souvent toujours
+","BL",
+"Outils_visualisation","Pouvez-vous précisez lesquels ?","Question ouverte","BM",
+"usage_outils_systemes_qualif_donnees","Utilisez-vous des outils pour qualifier ou décrire vos données ?","Jamais rarement parfois souvent toujours
+","BN",
+"Outils_redaction_documents_traitement_texte","Pour rédiger vos documents de recherche et publications, quels outils utilisez-vous ?","Jamais rarement parfois souvent toujours
+","BO",
+"Outils_redaction_documents_traitement_texte_ligne","Pour rédiger vos documents de recherche et publications, quels outils utilisez-vous ?","Jamais rarement parfois souvent toujours
+","BP",
+"Outils_redaction_documents_editeur_Latex","Pour rédiger vos documents de recherche et publications, quels outils utilisez-vous ?","Jamais rarement parfois souvent toujours
+","BQ",
+"Outils_redaction_documents_balisage","Pour rédiger vos documents de recherche et publications, quels outils utilisez-vous ?","Jamais rarement parfois souvent toujours
+","BR",
+"Outils_redaction_documents_aide_redaction","Pour rédiger vos documents de recherche et publications, quels outils utilisez-vous ?","Jamais rarement parfois souvent toujours
+","BS",
+"Outils_redaction_documents_formats_specifiques","Pour rédiger vos documents de recherche et publications, quels outils utilisez-vous ?","Jamais rarement parfois souvent toujours
+","BT",
+"Outils_redaction_documents_gestionnaire_references","Pour rédiger vos documents de recherche et publications, quels outils utilisez-vous ?","Jamais rarement parfois souvent toujours
+","BU",
+"Outils_redaction_documents_traduction","Pour rédiger vos documents de recherche et publications, quels outils utilisez-vous ?","Jamais rarement parfois souvent toujours
+","BV",
+"Outils_redaction_documents_PAO","Pour rédiger vos documents de recherche et publications, quels outils utilisez-vous ?","Jamais rarement parfois souvent toujours
+","BW",
+"outils_production_figure","Quels outils utilisez-vous pour générer des figures (schémas, images, carte, …) ?","Question ouverte","BX",
+"Formats_presentation_resultats_recherche_communication","Sous quelle(s) forme(s) présentez-vous les résultats de vos recherches ?","Jamais rarement parfois souvent toujours
+","BY",
+"Formats_presentation_resultats_recherche_articles_evaluation_pairs","Sous quelle(s) forme(s) présentez-vous les résultats de vos recherches ?","Jamais rarement parfois souvent toujours
+","BZ",
+"Formats_presentation_resultats_recherche_articles_sans_evaluation_pairs","Sous quelle(s) forme(s) présentez-vous les résultats de vos recherches ?","Jamais rarement parfois souvent toujours
+","CA",
+"Formats_presentation_resultats_recherche_chapitre_ouvrage","Sous quelle(s) forme(s) présentez-vous les résultats de vos recherches ?","Jamais rarement parfois souvent toujours
+","CB",
+"Formats_presentation_resultats_recherche_presse","Sous quelle(s) forme(s) présentez-vous les résultats de vos recherches ?","Jamais rarement parfois souvent toujours
+","CC",
+"Formats_presentation_resultats_recherche_document_interne","Sous quelle(s) forme(s) présentez-vous les résultats de vos recherches ?","Jamais rarement parfois souvent toujours
+","CD",
+"Formats_presentation_resultats_recherche_reseaux_sociaux","Sous quelle(s) forme(s) présentez-vous les résultats de vos recherches ?","Jamais rarement parfois souvent toujours
+","CE",
+"Formats_presentation_resultats_recherche_livre","Sous quelle(s) forme(s) présentez-vous les résultats de vos recherches ?","Jamais rarement parfois souvent toujours
+","CF",
+"Formats_presentation_resultats_recherche_billet_web","Sous quelle(s) forme(s) présentez-vous les résultats de vos recherches ?","Jamais rarement parfois souvent toujours
+","CG",
+"Formats_presentation_resultats_recherche_billet_blog_personnel","Sous quelle(s) forme(s) présentez-vous les résultats de vos recherches ?","Jamais rarement parfois souvent toujours
+","CH",
+"Formats_presentation_resultats_recherche_autre","Sous quelle(s) forme(s) présentez-vous les résultats de vos recherches ?","Jamais rarement parfois souvent toujours
+","CI",
+"criteres_soumission_publi","Quels sont vos critères de choix pour soumettre une publication ou une communication ?","notoriété de la revue, de l'éditeur, du congrès dans ma discipline ; indicateurs chiffrés de la revue ; critères HCERES, FNGE, CNRS, CNU ; frais de publications ; transparence du processus d'évaluation ; diffusion en accès libre (choix personnel) ; refus des revues prédatrices ; diffusion en accès libre (imposé par mon institution, financeur)","CJ","4 réponses maximum possibles"
+"Pre-print_non_evalues_platerforme_not_for_profit","Diffusez-vous des prépublications (préprint) non évaluées de vos travaux ?","Jamais rarement parfois souvent toujours
+","CK",
+"Pre-print_non_evalues_reseaux-sociaux-num_academiques","Diffusez-vous des prépublications (préprint) non évaluées de vos travaux ?","Jamais rarement parfois souvent toujours
+","CL",
+"Pre-print_non_evalues_site_web_personnel","Diffusez-vous des prépublications (préprint) non évaluées de vos travaux ?","Jamais rarement parfois souvent toujours
+","CM",
+"Diffusion_donnees_produites_complement_plateforme_editeur","Diffusez-vous des données produites lors de vos recherches ?","Jamais rarement parfois souvent toujours
+","CN",
+"Diffusion_donnees_produites_article_donnees","Diffusez-vous des données produites lors de vos recherches ?","Jamais rarement parfois souvent toujours
+","CO",
+"Diffusion_donnees_produites_entrepots_generalistes","Diffusez-vous des données produites lors de vos recherches ?","Jamais rarement parfois souvent toujours
+","CP",
+"Diffusion_donnees_produites_entrepot_disciplinaire","Diffusez-vous des données produites lors de vos recherches ?","Jamais rarement parfois souvent toujours
+","CQ",
+"Diffusion_donnees_produites_résultats_négatifs","Diffusez-vous des données produites lors de vos recherches ?","Jamais rarement parfois souvent toujours
+","CR",
+"Diffusion_autres_types_production_projet_recherche","Diffusez-vous d’autres types de productions scientifiques ?","Oui Non","CS",
+"Diffusion_autres_types_production_grant_proposals","Diffusez-vous d’autres types de productions scientifiques ?","Oui Non","CT",
+"Diffusion_autres_types_production_protocoles","Diffusez-vous d’autres types de productions scientifiques ?","Oui Non","CU",
+"Diffusion_autres_types_production_notebook","Diffusez-vous d’autres types de productions scientifiques ?","Oui Non","CV",
+"Diffusion_autres_types_production_codes","Diffusez-vous d’autres types de productions scientifiques ?","Oui Non","CW",
+"Diffusion_autres_types_production_prorotypes","Diffusez-vous d’autres types de productions scientifiques ?","Oui Non","CX",
+"Diffusion_autres_types_production_rapports","Diffusez-vous d’autres types de productions scientifiques ?","Oui Non","CY",
+"Diffusion_autres_types_production_materiels_accompagnement","Diffusez-vous d’autres types de productions scientifiques ?","Oui Non","CZ",
+"Diffusion_autres_types_production_posters","Diffusez-vous d’autres types de productions scientifiques ?","Oui Non","DA",
+"Diffusion_publications_evaluees_pairs_archives_ouvertes","Diffusez-vous vos publications scientifiques évaluées par les pairs dans ? ","Jamais rarement parfois souvent toujours
+","DB",
+"Diffusion_publications_evaluees_pairs_entrepots_generalistes","Diffusez-vous vos publications scientifiques évaluées par les pairs dans ?","Jamais rarement parfois souvent toujours
+","DC",
+"Diffusion_publications_evaluees_pairs_reseaux_sociaux_num_academiques","Diffusez-vous vos publications scientifiques évaluées par les pairs dans ?","Jamais rarement parfois souvent toujours
+","DD",
+"Valorisation_recherche_referencement","Comment valorisez-vous vos résultats de recherche ?","Jamais rarement parfois souvent toujours
+","DE",
+"Valorisation_recherche_reseaux_sociaux_num_generalistes","Comment valorisez-vous vos résultats de recherche ?","Jamais rarement parfois souvent toujours
+","DF",
+"Valorisation_recherche_reseaux_sociaux_num_academiques","Comment valorisez-vous vos résultats de recherche ?","Jamais rarement parfois souvent toujours
+","DG",
+"Valorisation_recherche_presence_num","Comment valorisez-vous vos résultats de recherche ?","Jamais rarement parfois souvent toujours
+","DH",
+"Valorisation_recherche_multimédia","Comment valorisez-vous vos résultats de recherche ?","Jamais rarement parfois souvent toujours
+","DI",
+"Valorisation_recherche_media_ligne","Comment valorisez-vous vos résultats de recherche ?","Jamais rarement parfois souvent toujours
+","DJ",
+"Valorisation_recherche_sciences_citoyennes","Comment valorisez-vous vos résultats de recherche ?","Jamais rarement parfois souvent toujours
+","DK",
+"Valorisation_recherche_transfert_technologie","Comment valorisez-vous vos résultats de recherche ?","Jamais rarement parfois souvent toujours
+","DL",
+"Valorisation_recherche_conferences","Comment valorisez-vous vos résultats de recherche ?","Jamais rarement parfois souvent toujours
+","DM",
+"Valorisation_recherche_hackatons","Comment valorisez-vous vos résultats de recherche ?","Jamais rarement parfois souvent toujours
+","DN",
+"Platefromes_evaluation_ouverte","Connaissez-vous des plateformes d’évaluation ouverte par les pairs ?","Oui, parfaitement  Oui, j’en ai entendu parler Non, je ne sais pas ce que c’est","DO",
+"Quelles_plateforme_ouverte","Si oui, lesquelles ?","pre-registering  journaux open peer review  / évaluation ouverte  (pré-publication)  journaux open peer review / évaluation ouverte (post-publication)  outils de peer review","DP",
+"Souhait_partage_donnees_produites-partenariat","Selon vous, est-il souhaitable que les données de recherches que vous avez produites ou contribuées à produire soient partagées ?","Oui Non","DQ",
+"Souhait_partage_donnees_produites_discipline","Selon vous, est-il souhaitable que les données de recherches que vous avez produites ou contribuées à produire soient partagées ?","Oui Non","DR",
+"Souhait_partage_donnees_produites_pays_continent","Selon vous, est-il souhaitable que les données de recherches que vous avez produites ou contribuées à produire soient partagées ?","Oui Non","DS",
+"Souhait_partage_donnees_produites_domaine_economique","Selon vous, est-il souhaitable que les données de recherches que vous avez produites ou contribuées à produire soient partagées ?","Oui Non","DT",
+"Souhait_partage_donnees_produites_secteur_associatif","Selon vous, est-il souhaitable que les données de recherches que vous avez produites ou contribuées à produire soient partagées ?","Oui Non","DU",
+"Souhait_partage_donnees_produites_sans_restriction","Selon vous, est-il souhaitable que les données de recherches que vous avez produites ou contribuées à produire soient partagées ?","Oui Non","DV",
+"compatibilite_diffusion_partage
+","34 - Le partage et la diffusion des données vous paraissent-ils compatibles avec les
+activités de valorisation ?","Question ouverte","DW","mots anonymisés sous forme de XXXXX"
+"evolutions_pratiques_numeriques","35 - Selon vous, vos pratiques numériques vont-elles évoluer à l'avenir et de quelles
+manières ?","Question ouverte","DX","mots anonymisés sous forme de XXXXX"
+"sexe","Quel est votre genre ?","Une femme Un homme Je ne souhaite pas répondre","DY",
+"Disciplines_9niv","Quelle est votre discipline principale de recherche ?","Sciences de l'ingénieur  Sciences humaines
+Sciences sociales  Lettres et Arts  Médecine
+Sciences du vivant Chimie, Matériaux  Mathématiques, Informatiques Physique, Sciences de la terre et de l'Univers","DZ","recodage en 9 disciplines"
+"annee_naissance_recod10niv","Quelle est votre année de naissance ?","Moins de 25 ans  25 à 30 ans 31 à 35 ans
+36 à 40 ans 41 à 45 ans 46 à 50 ans  51 à 55 ans 56 à 60 ans 61 à 65 ans 66 ans et plus","EA",
